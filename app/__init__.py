@@ -5,7 +5,7 @@ import psycopg2
 
 app = Flask(__name__)
 postgres = psycopg2.connect(
-        host="dpg-chi7n4l269vf5qb9dcig-a.oregon-postgres.render.com/todo_9hab",
+        host="dpg-chi7n4l269vf5qb9dcig-a.oregon-postgres.render.com",
         database="todo_9hab",
         user="root",
         password="m0K2Eq8u9Z7edbDZAq9dsskXQ9UqxGY1")
